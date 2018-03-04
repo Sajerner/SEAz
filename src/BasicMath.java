@@ -10,8 +10,10 @@ class BasicMath
     {
         return a - b;
     }
-
-    // TODO: subtract
-	// TODO: multiply
+	
+    public int prod(int a, int b)
+    {
+        return a * b;
+    }
 	// TODO: divide
 }

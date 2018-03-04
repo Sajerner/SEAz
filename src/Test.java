@@ -38,4 +38,20 @@ class Test
             System.out.println("Sub: Failed, expected = " + expected + ", result = " + result);
         }
     }
+    private static void testProd()
+    {
+        int a = 5;
+        int b = 6;
+        int expected = 30;
+        BasicMath bm = new BasicMath();
+        int result = bm.prod(a, b);
+        if (result == expected)
+        {
+            System.out.println("Prod: OK");
+        }
+        else
+        {
+            System.out.println("Prod: Failed, expected = " + expected + ", result = " + result);
+        }
+    }
 }
